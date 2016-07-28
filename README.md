@@ -4,8 +4,11 @@ Feel free to ask us anything about it.
 
 -
 -- **actions**
+
 --- changelog.php
+
 --- home.php
+
 --- index.html
 --- install.php
 --- uninstall.php
