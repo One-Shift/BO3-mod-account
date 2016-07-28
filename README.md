@@ -3,56 +3,57 @@ Here you can find the base/template to create a new module for BO3.
 Feel free to ask us anything about it.
 
 -
--- **actions**
 
---- changelog.php
+- - **actions**
 
---- home.php
+- - - changelog.php
 
---- index.html
+- - - home.php
 
---- install.php
+- - - index.html
 
---- uninstall.php
+- - - install.php
 
--- **db**
+- - - uninstall.php
 
---- index.html
+- - **db**
 
---- install.sql
+- - - index.html
 
---- uninstall.sql
+- - - install.sql
 
--- **languages**
+- - - uninstall.sql
 
---- en.ini
+- - **languages**
 
---- index.html
+- - - en.ini
 
--- **templates-e**
+- - - index.html
 
---- **install**
+- - **templates-e**
 
----- form.html
+- - - **install**
 
----- index.html
+- - - - form.html
 
----- message.html
+- - - - index.html
 
---- **uninstall**
+- - - - message.html
 
----- index.html
+- - - **uninstall**
 
----- message.html
+- - - - index.html
 
---- index.html
+- - - - message.html
 
--- **templates**
+- - - index.html
 
---- index.html
+- - **templates**
 
--- README.md
+- - - index.html
 
--- index.html
+- - README.md
 
--- mod-example.html
+- - index.html
+
+- - mod-example.html
