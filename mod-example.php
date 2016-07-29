@@ -20,7 +20,7 @@ if (file_exists("modules/{$cfg->mdl->folder}/languages/{$lg_s}.ini")) {
 }
 
 // check if this module is installed
-if (functions::dbTableExists($cfg->mdl->dbTables) == FALSE) {
+if (functions::dbTableExists($cfg->mdl->dbTables) == FALSE || functions::mdlInstalled($cfg->mdl->folder) == FALSE) {
 	$a = "install";
 }
 
