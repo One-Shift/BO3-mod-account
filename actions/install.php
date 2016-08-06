@@ -19,13 +19,13 @@ if (isset($_POST["submitInstall"]) && user::isOwner($authData)) {
         $mdl = str_replace(
             "{c2r-lg-message}",
             $lang["install"]["success"],
-            functions::mdl_load("templates-e/install/message.html")
+            functions::mdl_load("templates-e/install/message.tpl")
         );
     } else {
         $mdl = str_replace(
             "{c2r-lg-message}",
             $lang["install"]["failure"]." : ".$mysqli->error,
-            functions::mdl_load("templates-e/install/message.html")
+            functions::mdl_load("templates-e/install/message.tpl")
         );
     }
 } else {
@@ -40,7 +40,7 @@ if (isset($_POST["submitInstall"]) && user::isOwner($authData)) {
             $lang["common"]["a-yes"],
             $lang["common"]["a-no"]
         ],
-        functions::mdl_load("templates-e/install/form.html")
+        functions::mdl_load("templates-e/install/form.tpl")
     );
 }
 

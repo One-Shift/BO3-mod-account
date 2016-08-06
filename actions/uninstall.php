@@ -19,20 +19,20 @@ if (isset($_POST["submitUninstall"]) && user::isOwner($authData)) {
         $mdl = str_replace(
             "{c2r-lg-message}",
             $lang["uninstall"]["success"],
-            functions::mdl_load("templates-e/uninstall/message.html")
+            functions::mdl_load("templates-e/uninstall/message.tpl")
         );
     } else {
         $mdl = str_replace(
             "{c2r-lg-message}",
             $lang["uninstall"]["failure"]." : ".$mysqli->error,
-            functions::mdl_load("templates-e/uninstall/message.html")
+            functions::mdl_load("templates-e/uninstall/message.tpl")
         );
     }
 } else {
     $mdl = str_replace(
         "{c2r-lg-message}",
         $lang["uninstall"]["failure"],
-        functions::mdl_load("templates-e/uninstall/message.html")
+        functions::mdl_load("templates-e/uninstall/message.htpl")
     );
 }
 
