@@ -1,7 +1,7 @@
 <?php
 
 $cfg->mdl = new stdClass();
-$cfg->mdl->name = "Account Edit";
+$cfg->mdl->name = "Account";
 $cfg->mdl->folder = "mod-account";
 $cfg->mdl->path = "{$cfg->system->path_bo}/modules/{$cfg->mdl->folder}/";
 $cfg->mdl->version = "0.0.1";
