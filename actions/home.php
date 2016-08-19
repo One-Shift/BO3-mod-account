@@ -119,7 +119,7 @@ if (isset($_POST["submit"])) {
         ],
         [
             "danger",
-            $mdl_lang["account"]["failure"]
+            sprintf($mdl_lang["account"]["failure"], $cfg->email->support)
         ],
         $message_tpl
     );
@@ -167,6 +167,5 @@ $mdl = str_replace(
     ],
     functions::mdl_load("templates/home.tpl")
 );
-
 
 include "pages/module-core.php";
